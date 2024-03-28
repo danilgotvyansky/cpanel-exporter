@@ -1,5 +1,5 @@
 # cPanel Exporter
-The **cPanel Exporter** is a Prometheus exporter for cPanel account. It scrapes the Statistics panel, MySQL, PostGreSQL, and email accounts information using cPanel's built-in UAPI.
+The **cPanel Exporter** is a Prometheus exporter for cPanel account. It scrapes the Statistics panel, MySQL, PostGreSQL, FTP and email accounts information using cPanel's built-in UAPI.
 
 ## Table of Contents
 1. [Getting Started](#getting-started)
@@ -164,6 +164,20 @@ The list of generated metrics:
 
 Feel free to use this dashboard designed specially for this exporter:
 [https://grafana.com/grafana/dashboards/20801](https://grafana.com/grafana/dashboards/20801)
+
+<details> 
+ <summary>Screenshots</summary>
+
+![screenshot1](https://github.com/danilgotvyansky/cpanel-exporter/assets/122215118/ce316e0f-cd72-436f-8375-7d676ae6049c)
+![screenshot2](https://github.com/danilgotvyansky/cpanel-exporter/assets/122215118/63173174-b07a-458c-8f0d-c828e5fdce06)
+![screenshot3](https://github.com/danilgotvyansky/cpanel-exporter/assets/122215118/e2249473-25e6-4f4d-abcc-0714f0bd6ef0)
+![screenshot4](https://github.com/danilgotvyansky/cpanel-exporter/assets/122215118/59c2333c-9642-4738-9d4f-99c0acbbe01b)
+![screenshot5](https://github.com/danilgotvyansky/cpanel-exporter/assets/122215118/3511274a-ea3b-4753-8df5-d3dea8e5474b)
+![screenshot6](https://github.com/danilgotvyansky/cpanel-exporter/assets/122215118/3203d349-a779-4b92-bd9c-0725c48e6bae)
+![screenshot7](https://github.com/danilgotvyansky/cpanel-exporter/assets/122215118/77fb67ab-ca55-4874-856f-4a5f61bb6846)
+![screenshots8](https://github.com/danilgotvyansky/cpanel-exporter/assets/122215118/7e6d04ed-92fb-4938-9bfa-a94f098ecaf3)
+
+</details>
 
 ---
 
